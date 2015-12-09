@@ -802,6 +802,7 @@
                         controller: attrs.ngDialogController,
                         controllerAs: attrs.ngDialogControllerAs,
                         bindToController: attrs.ngDialogBindToController,
+                        disableAnimation: attrs.ngDialogDisableAnimation,
                         scope: ngDialogScope,
                         data: attrs.ngDialogData,
                         showClose: attrs.ngDialogShowClose === 'false' ? false : (attrs.ngDialogShowClose === 'true' ? true : defaults.showClose),
